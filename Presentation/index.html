@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Do Código ao Uso: soluções disitais que incluem. Apresentação do Trabalho de Ana G. Com Biblioteca JQuery.">
+    <meta name="author" content="Kevin Powell, Ana G">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <title>AG Presentation | JQuery</title>  
+  </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="uniformimages.css" rel="stylesheet" type="text/css"/>
+        <script src="uniformimages.js" type="text/javascript"></script>    
+      <style>      
+      @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Poppins&display=swap');
+      
+      *, *::before, *::after{
+        box-sizing: border-box;
+      }
+      body{
+        background: white;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+      
+      h1{
+         font-family: 'Bree Serif', serif;
+        font-size: 3rem;
+        margin-top:0;
+      }
+      h2{
+        font-size: 2.5rem;
+        font-family: 'Bree Serif', serif;
+      }
+      h4{
+        line-height: 2.0;
+        font-size: 1.8rem;
+
+      }
+      p{
+        line-height:1.7;
+      
+      }
+      .hero{
+        padding: 75px 0;
+        background: #e0f098;
+      }
+      .container{
+        width: 80%;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .row{
+        display: flex;
+        justify-content: space-between;
+      
+      }
+      .hero_text{
+        width: 62%;
+      }
+      img{
+       max-width: 100%;
+       box-shadow: 4px 4px 8px rgba(0,0,0,.5);
+      }
+      .hero_img{
+        width: 32%;
+        align-self: flex-start; 
+      }
+      
+      
+      .hero_text p{
+        line-height: 2.0;
+        font-size: 1.3em;
+        border-left: 9px solid orangered; 
+        padding-left: 1em; 
+        margin-bottom: 3em;
+      }
+      
+      .hero_text .button{
+        display: inline-block;
+        text-decoration: none;
+        background: orangered;
+        color: white;
+        padding: 1em 2em;
+        border-radius: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all .4s ease-in;
+      }
+      .hero_text .button:hover{
+        background-color: rgba(0, 0, 0, 1);
+        color:whitesmoke;
+        box-shadow: 2px 2px 8px orangered;
+      }
+      
+      @media (max-width:450px){
+        .hero_text .button{
+          padding: 1em .9em;
+          letter-spacing: 0.2px;
+          font-size: .7em;   
+        }
+      }
+      
+      .main_section{
+        margin: 3em 0; 
+      }
+      
+      .main_section_text{
+        width:62%;
+      }
+      
+      .right_section{
+        background-color:orangered;
+        width: 32%;  
+      }
+      
+      .right_section_content{
+        color:white;
+        text-align:center;
+        padding: .5rem 2em;
+       
+      }
+      .container {
+          width: 90%;
+          max-width: 1280px;
+          margin: 0 auto;
+          
+      }
+      section.secondary p,
+      section.primary p {
+          margin-bottom: 0;
+      }
+      .sidebar .col {
+              margin-left: 0;
+              margin-bottom: 1.5em;
+          }
+      
+      .secondary {
+          padding: 5em 0; 
+          background-color: black;
+          color: white;
+      }
+      .footer {
+              background-color: black;
+              padding:10px;
+          }
+      
+      </style>
+      <body>
+          <div class="hero">
+            <div class="container ">
+              <div class="row">
+               <div class="hero_text">
+                <h1>Do Código ao Uso: Soluções Digitais que incluem.</h1>
+                <p>Em uma parceria profissional cada parte soma-se à outra em uma sinergia.<br> A confiança do cliente é o motor propulsor que nos leva a melhorar experiência dele em cada trabalho.</p>
+                  <a href=https://gotoportfolio.netlify.app/ class="button" target=_blank>Acessar Portifólio</a> 
+                </div>
+                <div class="hero_img">
+                    <img src="cup.jpg" alt="Caneca de cerâmica com bebida quente e paisagem ensolarada ao fundo."/>
+                  </div>                  
+                </div>
+              </div>        
+          </div>    
+          <section>
+            <div class="container">
+              <h2 class="text-center"><b>Tecnologia Com Toque Humano</b></h2>
+              <br>
+              <br>
+              <br>
+                <div class="row">
+              <div class="col-sm-3">
+                        <a href="#">
+                            <img src="https://source.unsplash.com/450x600/?computer" alt="Computador" class="unim-circle"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#">
+                            <img src="https://source.unsplash.com/900x600/?meeting" alt="Reunião de Trabalho" class="unim-circle"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#">
+                            <img src="https://source.unsplash.com/600x450/?tablet" alt="Tablet" class="unim-circle"/>
+                        </a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a href="#">
+                            <img src="https://source.unsplash.com/600x900/?celphone" alt="Aparelho Celular" class="unim-circle"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <br>
+        <br>
+        <br>
+          <section class="secondary">
+            <div class="container">
+              <div class="row">
+                <div class="hero_text">   
+                  <h2>👀 O que fazemos:</h2>
+                      <h4>Desenvolvemos sistemas com os recursos mais atuais do mercado.<br>Realizamos testes técnicos para garantir qualidade.</h4>
+                    </div>
+                    <br>
+                    <div class="col">       
+                </div>
+            </div>
+          </div>
+          </section>
+         <section class="main_section">
+          <div class="container row">  
+            <div class="main_section_text">
+              <h2>✅ Solução Digital Na Medida Ideal.
+            </h2><br>
+              <p><font style size="3.5em">Acessibilidade, Performance, Responsividade e Segurança.<br> Para que as aplicações web atendam aos padrões de qualidade<br> profissionais capacitados são necessários.<br>O planejamento de cada projeto ajuda os clientes<br> a atingirem seus os objetivos.</font></p>     
+              </div>
+         <div class="right_section">
+          <div class="right_section_content">
+              <h3>Tempos Atuais</h3>  
+              <p>As soluções consideram a utilização massiva de aparelhos móveis, a busca por conveniência e os intercâmbios culturais.
+           <div>
+          <div class="right_section_content">
+            <h3>Capacitação Solidária</h3>
+            <p>Com formação técnica viabilizada através de um projeto social, compreendemos os contextos diversos.</p>
+          </div>
+          <div class="right_section_content">
+            <h3>Bem Comum</h3>
+            <p>Importa fazer diferença na vida das pessoas. Cada projeto é planejado desde o início para ter acessibilidade.</p>
+          </div>
+        </div>      
+      </div>
+    </section>
+    <div vw class="enabled" aria-labelledby="tradutordelibras">
+      <div vw-access-button class="active" role="button"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>   
+   <footer>
+      <div class="footer">
+        <center><p><a href="http://educafro.org.br" target="blank"><font color="white">✅</font></a></p></center>   
+      </div>
+    </footer>
+  </body>
+   </html>    
